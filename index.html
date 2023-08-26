@@ -2,7 +2,8 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Portfolio</title>
+  <title>
+    <icon class="fa-solid fa-user-secret fa-lg" style="color: #2e07ed;"></icon>Portfolio</title>
   < <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
@@ -35,15 +36,15 @@
      <a class="menu-link is-active" href="#">
       <i class="fa-solid fa-house-user"></i>
       Home</a>
-     <a class="menu-link" href="#">
+     <a class="menu-link" href="#about-me">
       <i class="fa-solid fa-user"></i>
       About me</a>
-     <a class="menu-link" href="#">
+     <a class="menu-link" href="#project">
       <i class="fa-solid fa-diagram-project"></i>
       Project</a>
-     <a class="menu-link" href="#">
+     <a class="menu-link" href="#contact-us">
       <i class="fa-solid fa-address-book"></i>
-      Contact Me</a>
+      Contact US</a>
     </div>
    </div>
    <div class="wrapper">
@@ -58,7 +59,7 @@
        <img align="right" height="680px" width="380px" src="7.jpg">
       </div>
       <div class="content-section">
-       <div class="content-section-title">About me</div>
+       <div class="content-section-title" id="about-me">About me</div>
        <ul>
         <li class="adobe-product">
           <div class="products">
@@ -204,7 +205,7 @@
        </ul>
       </div>
       <div class="content-section">
-       <div class="content-section-title">Project</div>
+       <div class="content-section-title" id="project">Project</div>
        <div class="apps-card">
         <div class="app-card">
          <span>
@@ -243,10 +244,9 @@
           </span>
           <div class="app-card__subtext">Pokedesk with Html,css,Jquery</div>
          </div>
-       </div>
       </div>
       <div class="content-section">
-        <div class="content-section-title">Contact US</div>
+        <div class="content-section-title" id="contact-us">Contact US</div>
         <form>
           <!-- Name input -->
           <div class="form-outline mb-4">
